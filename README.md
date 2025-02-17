@@ -1,50 +1,73 @@
-# React + TypeScript + Vite
+# 🌐 viiiniciiiius.github.io - Web Project with Vite and TypeScript
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the repository of my test website, created with **Vite** and **TypeScript**! 🚀
 
-Currently, two official plugins are available:
+This project is hosted using **GitHub Pages** and can be accessed at:
+👉 **[viiiniciiiius.github.io](https://viiiniciiiius.github.io)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 About the Project
 
-## Expanding the ESLint configuration
+This project aims to explore the functionalities of **Vite**, an ultra-fast build tool, combined with **TypeScript** to develop modern and high-performance web applications.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+🔹 **Framework:** Vite
+🔹 **Language:** TypeScript
+🔹 **Hosting:** GitHub Pages
+🔹 **Purpose:** Testing and learning
 
-- Configure the top-level `parserOptions` property like this:
+## 🚀 Features Used
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+✅ **Vite** - Fast and efficient for development and build
+✅ **TypeScript** - Static typing for better code safety
+✅ **GitHub Actions** - Automatic deployment to GitHub Pages
+✅ **ESLint & Prettier** - Code formatting and standardization
+✅ **CSS Modules / Tailwind** - Modular and efficient styling
+
+## 🛠️ Installation and Usage
+
+To run this project locally, follow the steps below:
+
+```bash
+# Clone the repository
+git clone https://github.com/viiiniciiiius/viiiniciiiius.github.io.git
+
+# Navigate to the project folder
+cd viiiniciiiius.github.io
+
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+The project will run locally and can be accessed at **http://localhost:5173** (or the port indicated by Vite).
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## 🌍 Deploying to GitHub Pages
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+This project is configured for automatic deployment to **GitHub Pages** via GitHub Actions.
+
+To manually deploy:
+
+```bash
+npm run build
+npm run deploy
 ```
+
+## 🤝 Contributing
+
+Want to contribute to this project? Feel free! Follow these steps:
+
+1. **Fork** the repository 🍴
+2. Create a branch for your changes: `git checkout -b my-feature`
+3. Commit your changes: `git commit -m 'Added my feature'`
+4. Push to the remote repository: `git push origin my-feature`
+5. Open a **Pull Request** 🚀
+
+## 📜 License
+
+This project is licensed under the **MIT License**. See the `LICENSE` file for more details.
+
+## 📞 Contact
+
+📧 **Email:** viniciuscarlos087@gmail.com
+🐙 **GitHub:** [@viiiniciiiius](https://github.com/viiiniciiiius)
