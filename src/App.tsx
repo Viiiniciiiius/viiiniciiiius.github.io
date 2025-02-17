@@ -1,10 +1,10 @@
 import { useState } from 'react'
-import reactLogo from 'src/assets/react.svg'
-import viteLogo from '/vite.svg'
-import 'src/App.css'
+import reactLogo from './assets/react.svg'
+import viteLogo from '../public/vite.svg'
+import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState<number>(0)
 
   return (
     <>
@@ -18,16 +18,13 @@ function App() {
       </div>
       <h1>Vite + React</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+        <button onClick={() => setCount((count) => count + 3.1415926536)}>
+          + pi ≃ {count.toFixed(2)}
         </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
+        <h2>
+          <a href="https://github.com/Viiiniciiiius/viiiniciiiius.github.io"><code>Viiiniciiius GitHub</code></a>
+        </h2>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   )
 }
